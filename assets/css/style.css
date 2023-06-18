@@ -1,0 +1,454 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+
+/* nav start */
+
+.left-nav {
+
+    height: 100vh;
+    border-right: solid 2px #ecebeb;
+    text-align: center;
+}
+
+/* img and name start */
+
+.img-name img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #B7B7F2;
+    border-width: 4px;
+}
+
+
+
+.main-title {
+    text-align: center;
+}
+
+.main-title h4 {
+    position: relative;
+    text-transform: uppercase;
+    color: #373465;
+    font-weight: 700;
+}
+
+.main-title h4 span {
+    color: var(--color-secondary);
+}
+
+.main-title h4 .bg-text {
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    color: #EFEFF2;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    scale: 1.5;
+
+}
+
+/* img and name end */
+
+
+/* links start */
+.links a {
+    text-decoration: none;
+    color: #A8A7BC;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.links {
+    margin-top: 100px;
+}
+
+.colored {
+    color: #DBDBFF;
+}
+
+/* links end  */
+
+/* copyrights start */
+
+
+
+.fa-brands {
+    color: #19154D;
+    border-radius: 50%;
+    background-color: #F3F3F6;
+    padding: 15px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.fa-facebook-f {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.Copy-text h6 {
+    color: #ADACBF;
+}
+
+/* copyright end */
+/* Nav end */
+
+/* Home start */
+
+.home {
+    background-color: #EFFBF8;
+}
+
+.home-text {
+
+    padding: 65px;
+
+}
+
+.home-text h1 {
+    color: #130F49;
+    font-weight: 800;
+    font-family: Arial Black;
+    font-size: 50px;
+}
+
+.home-text .span-1 {
+    color: #A5A6FF;
+}
+
+.home-text .span-2 {
+    color: #9499AF;
+}
+
+.home-text p {
+    color: #aeafb0;
+}
+
+.span-3 {
+    color: #A5A6FF;
+}
+
+.p2 {
+    margin-top: -15px;
+}
+
+.butt-1 {
+    background-color: #130F49;
+    color: white;
+    border: none;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 220px;
+    height: 60px;
+}
+
+.butt-2 {
+    background-color: transparent;
+    color: #aaaaab;
+    border-color: #0b092b;
+    overflow: hidden;
+    width: 170px;
+    height: 60px;
+    border-radius: 5px;
+
+}
+
+.info {
+    border-left: solid 4px #FCA850;
+}
+
+.info h6 {
+    color: #130F49;
+    margin-left: 10px;
+}
+
+.home-img img {
+    margin-top: 50px;
+}
+
+
+.btn {
+    display: none;
+}
+
+
+/* home end */
+
+/* About start */
+
+.hi {
+    padding-top: 90px;
+    padding-left: 50px;
+}
+
+.hi p {
+    color: #4b496f;
+
+}
+
+.hi h1 {
+    color: #130F49;
+    font-weight: 700;
+    font-family: Arial Black;
+    font-size: 35px;
+}
+
+.h1 h6 {
+    color: #464371;
+
+}
+
+.hi-p {
+    padding-top: 135px;
+}
+
+.hi-sp {
+    color: orange;
+}
+
+.hi-p p {
+    color: #130F49;
+}
+
+.info-links {
+    display: flex;
+}
+
+.info-links a {
+    color: #4b496f;
+}
+
+.info-links p {
+    color: #130F49;
+
+    font-family: Arial Black;
+}
+
+
+
+
+
+
+.prog {
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.progg {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-left: 65px;
+
+}
+
+.prog-1 {
+    background-color: #D3F4EC;
+}
+
+.prog-2 {
+    background-color: #FCE8D4;
+}
+
+.prog-3 {
+    background-color: #E3F9E0;
+}
+
+/* About end */
+
+
+/* portfolio start */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    right: 0%;
+    font-weight: bold;
+    font-size: 18px;
+    border: solid 2px black;
+    border-radius: 50%;
+    color: black;
+
+
+}
+
+/* Position the "next button" to the right */
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: 0.5s;
+}
+
+
+.nextt {
+    line-height: 50px;
+}
+
+/* portfolio end */
+
+/* services start */
+
+
+.title-ser p {
+    color: #4b496f;
+    font-size: 25px;
+}
+
+.under-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.under-title h1 {
+
+    color: #130F49;
+    font-weight: 700;
+
+    font-size: 35px;
+}
+
+.under-title a {
+    color: #130F49;
+}
+
+
+/* cards start */
+
+.cards {
+    padding: 54px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+}
+
+.card {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.card-title {
+    color: #4b496f;
+}
+
+.card-subtitle {
+    color: #130F49;
+}
+
+.card-text {
+    color: #4b496f;
+}
+
+.card-link {
+    color: #130F49;
+    text-decoration: none;
+
+}
+
+/* services end */
+
+/* contact start */
+
+.contact {
+    background-color: #E9F9FF;
+}
+
+.contact-left h6 {
+    color: rgb(63, 73, 88);
+}
+
+.contact-left h1 {
+    color: #130F49;
+}
+
+.contact-left p {
+    color: #686868;
+}
+
+.contact-left .infoo {
+    color: #130F49;
+}
+
+.contact-left a {
+    color: #130F49;
+}
+
+
+.contact-left {
+    padding-left: 100px;
+}
+
+.contact-right .inp {
+    text-decoration: none;
+    overflow: hidden;
+    border: none;
+    border-radius: 4px;
+    width: 450px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    outline: none;
+
+}
+
+.mess {
+    padding-bottom: 60px;
+    padding-top: 15px;
+    width: 450px;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+
+
+}
+
+
+.send {
+    background-color: #130F49;
+    color: white;
+    border: none;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+/* contact end */

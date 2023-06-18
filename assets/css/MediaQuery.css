@@ -1,0 +1,58 @@
+
+  /* phones */
+  @media only screen and (max-width:991px) and (min-width:0px){
+
+    .left-nav{
+      height: 50px;
+    }
+
+   .main-Home{
+    background-color: #EFFBF8;
+   }
+
+    .for-big-screen {
+      display: none;
+    }
+
+   
+
+    .btn {
+      display: block;
+      left: 0%;
+      right: 0%;
+      bottom: 0%;
+      margin-right: 100%;
+      scale: 1.5;
+      margin-top: 15px;
+    }
+
+    .home {
+      margin-top: -50px;
+    }
+
+
+    
+    .contact-main{
+      background-color: #E9F9FF;
+    }
+
+    .contact-right .inp{
+      width: 100%;
+    }
+
+    .contact-right .mess{
+      width: 100%;
+    }
+
+    .progg{
+        margin-left: 0px;
+        
+    }
+    
+    .info-links{
+        max-width: max-content;
+        overflow: scroll;
+        
+    }
+    
+  }
